@@ -4,14 +4,30 @@
     box-sizing: border-box;
 }
 
+h1 {
+    text-align: center;
+    color: plum;
+
+}
+
 img { 
     display: block;
-    height: 80px;
-    width: 80px;
+    height: fit-content;
+    width: fit-content;
 }
 
 #container { 
-    background-color: bisque;
+    /* background-color: bisque; */
     height: fit-content;
     width: auto;
+    text-align: center;
+    font-size: large;
+}
+
+#button:hover
+{
+    background-color: mediumslateblue;
+    cursor: pointer;
+    
+
 }
